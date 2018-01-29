@@ -78,7 +78,7 @@ export default class Presentation extends React.Component {
             Datamonkey and HyPhy-Vision
           </Heading>
           <BlockQuote>
-            <Quote>Focus on Electron</Quote>
+            <Quote>Focus should be on the desktop application</Quote>
           </BlockQuote>
 
 
@@ -115,10 +115,10 @@ export default class Presentation extends React.Component {
 
             <Text textColor="primary">The benefits of going JavaScript</Text>
             <List>
-              <ListItem>Identify core necessities of HyPhy codebase.</ListItem>
+              <ListItem>Will help with identifying core necessities of HyPhy codebase.</ListItem>
               <ListItem>Tight integration in future electron application.</ListItem>
-              <ListItem>Flexible once implemented. For example, could theoretically write a Babel transpiler for batch language and port all existing HBL over to JavaScript runtime with no additional effort.</ListItem>
-              <ListItem>Even if a failed effort, would only serve to strengthen core code design given parallel development of two interfaces - the new parser and the C++ add-on.</ListItem>
+              <ListItem>Flexible once implemented. For example, could theoretically write a Babel compiler for batch language.</ListItem>
+              <ListItem>Even if the project ends up being limited in use, it would only serve to strengthen core code design given parallel development of two interfaces - the new parser and the C++ add-on.</ListItem>
             </List>
 
         </Slide>
