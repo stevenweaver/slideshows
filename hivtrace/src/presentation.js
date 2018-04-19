@@ -127,7 +127,7 @@ export default class Presentation extends React.Component {
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9" align="flex-start flex-start">
 
           <Heading size={2} fit textColor="primary">
-            Example of Usage
+            Example Distances
           </Heading>
 
           <Image src={distances} margin="60px 40px" bgColor="white" padding="50px 30px 50px 50px" />
@@ -139,6 +139,8 @@ export default class Presentation extends React.Component {
           <Text size={6} textColor="primary" textAlign="left" margin="20px 0px">
             Blue denotes potential transmission partners (≤0.02 substitutions/site). Red denotes partners with "random" within or between subtype viral divergence.
           </Text>
+
+          <Cite>Wertheim et. al. 2017</Cite>
 
         </Slide>
 
