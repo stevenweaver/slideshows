@@ -84,7 +84,6 @@ export default class Presentation extends React.Component {
 
 	componentDidMount() {
     _.delay(this.map, 1000, us);
-    d3.select('body').on("keypress", () => { this.map(us) });
     d3.select('body').on("keydown", () => { this.map(us) });
     d3.select('body').on("focus", () => { this.map(us) });
 	}
@@ -135,6 +134,30 @@ export default class Presentation extends React.Component {
 
         </Slide>
 
+			 <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9" align="flex-start flex-start">
+          <Heading size={2} fit textColor="primary">
+            Scott County, Indiana
+          </Heading>
+					<Text textColor="primary">Pop. ~24,000 (~15,000 aged 18-65)</Text>
+
+          <Layout>
+            <Fill>
+          		<Image src={scott_county} width="500px" padding="50px 30px 50px 50px" />
+            </Fill>
+            <Fill align="center center" marginTop="50px">
+							<Text fit="true" textColor="primary" style={{marginTop:"50"}}>November 2014 - November 2015</Text>
+							<Text fit="true" textColor="primary">181 HIV Infections</Text>
+							<List fit="true">
+								<ListItem fit="true" textColor="primary">Injection Drug Use</ListItem>
+								<ListItem fit="true" textColor="primary">57.5% Men</ListItem>
+								<ListItem fit="true" textColor="primary">34 - Median Age</ListItem>
+							</List>
+          		<Image src={nejm} width="800px" padding="50px 30px 50px 50px" />
+            </Fill>
+          </Layout>
+
+        </Slide> 
+
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9" align="flex-start flex-start">
 
           <Heading size={2} fit textColor="primary">
@@ -142,6 +165,7 @@ export default class Presentation extends React.Component {
           </Heading>
 					<Text textColor="primary">By Identifying Clusters</Text>
           <Image src={phylotree} width="400px" padding="50px 30px 50px 50px" />
+          <Cite>Peters el. al 2016, NEJM</Cite>
         </Slide>
 
 
@@ -151,6 +175,7 @@ export default class Presentation extends React.Component {
 						The Importance of Intervention
           </Heading>
 					<Image src={response} padding="50px 30px 50px 50px" />
+          <Cite>Peters el. al 2016, NEJM</Cite>
         </Slide>
 
         <Slide transition={['zoom']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9" align="flex-start flex-start">
