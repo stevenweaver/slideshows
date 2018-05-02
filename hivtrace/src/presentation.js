@@ -209,21 +209,6 @@ export default class Presentation extends React.Component {
 					<Image src={network_view} />
         </Slide>
 
-        <Slide transition={['zoom']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9">
-          <Heading size={2} fit textColor="primary">
-						HIV-TRACE Tabular Data
-          </Heading>
-					<Image src={cluster_list} />
-        </Slide>
-
-        <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9">
-
-          <Heading size={2} fit textColor="primary">
-            <a href="https://test.hivtrace.org/hivtrace/5a46af8401d72ca833fe9cef">The Application</a>
-          </Heading>
-
-        </Slide>
-
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR" bgDarken="0.9">
 
           <Heading size={2} fit textColor="primary">Acknowledgements</Heading>
