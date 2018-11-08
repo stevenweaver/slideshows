@@ -22,6 +22,7 @@ import {
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+import fig_3 from './figure_3.png';
 
 // Require CSS
 require('normalize.css');
@@ -149,6 +150,7 @@ export default class Presentation extends React.Component {
             This can become computationally expensive for large networks!
           </Text>
 
+          <a href="https://bugra.github.io/work/notes/2014-05-23/simple-bayesian-network-via-monte-carlo-markov-chain-mcmc-pymc/">Using MCMC</a>
 
         </Slide>
 
@@ -184,6 +186,11 @@ export default class Presentation extends React.Component {
           <a href="https://github.com/PoonLab/comet-prot">More Info</a>
 
         </Slide>
+
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage={bgImage} bgDarken="0.9">
+					<Image src={fig_3} width="800px" padding="50px 30px 50px 50px" />
+        </Slide>
+
 
 
       </Deck>
