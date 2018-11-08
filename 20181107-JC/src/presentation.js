@@ -39,7 +39,7 @@ const theme = createTheme(
   }
 );
 
-var bgImage = "https://www.ebi.ac.uk/biomodels-static/icons/BioModels_Database_logo_small.png";
+var bgImage = "https://cdn-images-1.medium.com/max/2000/1*xJ7ew1IqICMwkqKNwD0J-w.jpeg";
 
 export default class Presentation extends React.Component {
   render() {
@@ -145,22 +145,46 @@ export default class Presentation extends React.Component {
           <Image src="https://cdn-images-1.medium.com/max/1600/1*YfhbkEJaSBduQHoYoXnmKg.png" />
 					<Cite>Product of P(node|parents(node)) for all nodes</Cite>
 
+          <Text padding="20px" size={2} caps lineHeight={1} textColor="primary">
+            This can become computationally expensive for large networks!
+          </Text>
+
+
         </Slide>
 
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage={bgImage} bgDarken="0.9">
 
+          <Heading size={2} fit textColor="primary">
+            Practical Example - HCV
+          </Heading>
+
+          <List>
+            <ListItem>Find therapeutic targets</ListItem>
+            <ListItem>Associate variation with treatment outcomes</ListItem>
+            <ListItem>My personal favorite, explain the global prevalence of drug resistance-associated mutations</ListItem>
+          </List>
+
+        </Slide>
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage={bgImage} bgDarken="0.9" align="flex-start flex-start">
 
           <Heading size={2} fit textColor="primary">
-            Approach - Extended SIR
+            Pipeline
           </Heading>
 
-          <Image src="https://www.ebi.ac.uk/biomodels-static/ModelMonth/2010-11/fig1.png" margin="0px auto 40px" />
-          <Cite>Simple SIR Model</Cite>
-          <Image src="https://www.ebi.ac.uk/biomodels-static/ModelMonth/2010-11/fig2_small.png" margin="0px auto 40px" />
-          <Cite>Restif and Grenfell (2006)</Cite>
+          <List>
+            <ListItem>Query some database like GenBank for relevant sequences, and make sure you know which region</ListItem>
+            <ListItem>Align to a reference sequence using an alignment tool like MAFFT</ListItem>
+            <ListItem>(Contextual) General data quality assurance procedures.</ListItem>
+            <ListItem>Build phylogenetic tree</ListItem>
+            <ListItem>Fit Codon Model and Ancestral State Reconstruction</ListItem>
+            <ListItem>BGM Analysis</ListItem>
+          </List>
+
+          <a href="https://github.com/PoonLab/comet-prot">More Info</a>
 
         </Slide>
+
 
       </Deck>
 
