@@ -149,7 +149,7 @@ export default class Presentation extends React.Component {
             textColor="primary"
           >
             Identifying clusters of recent and rapid transmission through
-            analysis of molecular surveillance data.
+            analysis of molecular surveillance data
           </Heading>
           <Text
             padding="20px"
@@ -205,6 +205,24 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide
+          transition={["zoom"]}
+          bgColor="secondary"
+          textColor="primary"
+          bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR"
+          bgDarken="0.9"
+          align="flex-start flex-start"
+        >
+
+          <Heading size={2} fit textColor="primary">
+            Participation
+          </Heading>
+
+          <Image src={sites} width="800px" padding="50px 30px 50px 50px" />
+
+        </Slide>
+
+
+        <Slide
           transition={["fade"]}
           bgColor="secondary"
           textColor="primary"
@@ -231,50 +249,14 @@ export default class Presentation extends React.Component {
           bgDarken="0.9"
         >
           <Heading size={2} fit textColor="primary">
-            Approach
+            Example Approach
           </Heading>
 
           <List fit="true">
             <ListItem fit="true" textColor="primary">Identify all clusters (defined as connected network components) at a distance threshold of 1.5%</ListItem>
             <ListItem fit="true" textColor="primary">Select clusters that include at least 5 persons with HIV infection diagnosed within last year</ListItem>
-            <ListItem fit="true" textColor="primary"> </ListItem>
+            <ListItem fit="true" textColor="primary">Identify epidemiological characteristics of these clusters to inform intervention actions.</ListItem>
           </List>
-
-        </Slide>
-
-
-        <Slide
-          transition={["spin"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR"
-          bgDarken="0.9"
-        >
-          <Heading size={2} fit textColor="primary">
-            Approach
-          </Heading>
-          <Image src={tab} width="800px" padding="50px 30px 50px 50px" />
-        </Slide>
-
-        <Slide
-          transition={["zoom"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR"
-          bgDarken="0.9"
-          align="flex-start flex-start"
-        >
-
-          <Heading size={2} fit textColor="primary">
-            Implementation
-          </Heading>
-
-          <List fit="true">
-            <ListItem fit="true" textColor="primary">After identifying all clusters (defined as con- nected network components) at a distance threshold of 1.5%</ListItem>
-            <ListItem fit="true" textColor="primary">57.5% Men</ListItem>
-            <ListItem fit="true" textColor="primary">34 - Median Age</ListItem>
-          </List>
-
 
         </Slide>
 
@@ -294,23 +276,6 @@ export default class Presentation extends React.Component {
 
         </Slide>
 
-        <Slide
-          transition={["zoom"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/SIV_1280x720.jpg?itok=EduK0pcR"
-          bgDarken="0.9"
-          align="flex-start flex-start"
-        >
-
-          <Heading size={2} fit textColor="primary">
-            Participation
-          </Heading>
-
-          <Image src={sites} width="800px" padding="50px 30px 50px 50px" />
-
-
-        </Slide>
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage="http://silverback.temple.edu/assets/img/Animals_Monkeys_Angry_gorilla_036459_.jpg" bgDarken="0.7">
 

@@ -230,7 +230,7 @@ export default class Presentation extends React.Component {
           <Text textColor="primary">Born 1929 in San Diego, CA</Text>
 
           <BlockQuote fit>
-            <Quote textSize={50} fit>
+            <Quote textSize={40} fit>
 							It has been a goal of those attempting to
 							deduce phylogenetic relationships from information on biological characteristics to
 							find the ancestral relationship(s) that would
