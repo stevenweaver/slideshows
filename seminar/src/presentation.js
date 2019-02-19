@@ -284,7 +284,6 @@ export default class Presentation extends React.Component {
 						Bold!
           </Heading>
 
-
         </Slide>
 
 
@@ -311,8 +310,6 @@ export default class Presentation extends React.Component {
 						Result - Parsimony Score
 					</Text>
 
-
-
         </Slide>
 
         <Slide
@@ -337,6 +334,7 @@ export default class Presentation extends React.Component {
           bgImage={concert}
           bgDarken="0.6"
         >
+
           <Heading size={2} fit textColor="primary">
 						Discussion Topics
           </Heading>
@@ -348,9 +346,8 @@ export default class Presentation extends React.Component {
 					
         </Slide>
 
-
-
       </Deck>
+
     );
   }
 }
