@@ -92,7 +92,6 @@ export default class Presentation extends React.Component {
     this.map(us);
 	}
 
-
   render() {
     return (
       <Deck
