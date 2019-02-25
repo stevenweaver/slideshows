@@ -289,15 +289,37 @@ export default class Presentation extends React.Component {
         >
 
           <Heading size={2} fit textColor="primary">
-						Discussion Topics
+            Examples
           </Heading>
 					
           <List ordered start={1} fit="true">
-						<ListItem>Why has Fitch's Algorithm been a stalwart in computational phylogenetics? What is the algorithm useful for?</ListItem>
-						<ListItem>What are some of the drawbacks to parsimony methods? Is Fitch's approach to ancestral reconstruction still widely used?</ListItem>
+						<ListItem><a href="https://beta.observablehq.com/@stevenweaver/computing-root-to-tip-distances-with-phylotree-js/2" target="blank"><b>Reporting</b> Methods taken during research</a></ListItem>
+						<ListItem><a href="https://beta.observablehq.com/@stevenweaver/fitch-algorithm" target="blank"><b>Teaching</b> Classic Algorithms in Phylogenetics</a></ListItem>
+						<ListItem><a href="https://beta.observablehq.com/@stevenweaver/identifying-clusters-in-a-phylogenetic-tree-with-phylotre" target="blank"><b>Reproducing</b> Methods</a></ListItem>
 					</List>
 					
         </Slide>
+
+        <Slide
+          transition={["spin"]}
+          bgColor="secondary"
+          textColor="primary"
+          bgImage={still}
+          bgDarken="0.6"
+        >
+
+          <Heading size={2} fit textColor="primary">
+            Future Steps
+          </Heading>
+					
+          <List ordered start={1} fit="true">
+						<ListItem>Phylotree 1.0.0, making the already popular phylotree.js more than just a visualization tool, scheduled to release in April 2019</ListItem>
+						<ListItem>A new compartmentalization method, developed in-house, will be packaged with phylotree 1.0.0</ListItem>
+						<ListItem>Collaborations with well-respected scientists in ecology and virology in the field are in the works.</ListItem>
+					</List>
+					
+        </Slide>
+
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary" bgImage={still} bgDarken="0.5">
 
