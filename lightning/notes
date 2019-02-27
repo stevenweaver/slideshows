@@ -1,2 +1,27 @@
-engage the audience on questions that afflict our lives daily
+Who here in the audience has ever had an issue with reproducing a published result?
 
+It's not an uncommon problem. According to a Nature news article, over 70% have had trouble with replicating research.
+
+Now, software is not immune to this issue. Nearly 50% believed that code
+availability was a critical roadblock to reproducible research.
+
+Who here has given up trying to install and run software?
+
+I have a few questions listed here that I've personally heard over the past two
+weeks alone.
+
+Journals are trying their best to remedy the issue, but recent efforts have
+resulted in an expansive engineering effort that is both laborious to maintain and
+has an undesirable user experience. Why? Because R and Python requires a hosted
+backend solution in order to execute code.
+
+So, why not use JavaScript?
+
+* JavaScript is fast
+* Performance is remarkably better in key benchmarks that pertain directly to bioinformatics
+
+With code written in Phylotree, you will be able to
+
+* Teach critical concepts with code that can be modified directly with interactive visualizations.
+* Create notebooks that includes documentation, original data, and code used to generate results that can be modified immediately.
+* All of this with no backend server necessary or environment configuration.
