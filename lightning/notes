@@ -1,4 +1,4 @@
-Who here in the audience has ever had an issue with reproducing a published result?
+Have you ever had a problem with reproducing a published result?
 
 It's not an uncommon problem. According to a Nature news article, over 70% have had trouble with replicating research.
 
@@ -11,17 +11,31 @@ I have a few questions listed here that I've personally heard over the past two
 weeks alone.
 
 Journals are trying their best to remedy the issue, but recent efforts have
-resulted in an expansive engineering effort that is both laborious to maintain and
-has an undesirable user experience. Why? Because R and Python requires a hosted
-backend solution in order to execute code.
+resulted in an expansive engineering effort that is both laborious to maintain
+and has an undesirable user experience. Why? Because how we primarily share
+information with each other is through the browser, and languages like R and Python
+require a hosted backend solution in order to execute code. As it stands today, only
+JavaScript is fully supported natively by the most widely used browsers.
 
-So, why not use JavaScript?
+Now, I am not putting down R and Python. They are both fantastic languages with
+robust open source support.  I use both languages routinely, and will continue
+to do so. But the aforementioned issues and the advancements in web
+technologies did leave me asking :
+
+Why not use JavaScript?
 
 * JavaScript is fast
-* Performance is remarkably better in key benchmarks that pertain directly to bioinformatics
+* In fact, performance is remarkably better in key benchmarks that pertain directly to bioinformatics.
+* Can be run in high performance computing environments using Node.js.
 
 With code written in Phylotree, you will be able to
 
 * Teach critical concepts with code that can be modified directly with interactive visualizations.
-* Create notebooks that includes documentation, original data, and code used to generate results that can be modified immediately.
-* All of this with no backend server necessary or environment configuration.
+* Create notebooks, in conjunction with Observable, that include documentation, original data, and code used to generate results that can be modified immediately.
+* All of this with no backend server necessary, environment configuration, or concerning yourself with depedency requirements. 
+
+Code written in JavaScript can be packaged and submitted as an application
+along with manuscript, ensuring availability for posterity. Something full
+stack hosted applications cannot promise. 
+
+
