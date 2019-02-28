@@ -181,22 +181,6 @@ export default class Presentation extends React.Component {
           textColor="primary"
           bgImage={still}
           bgDarken="0.5"
-          align="flex-start flex-start"
-        >
-          <Heading size={1} style={{marginTop: "20px"}} fit textColor="primary">
-            Software/Methodology is Widely Considered a Large Part of the Problem
-          </Heading>
-
-          <Image src={reproduce_2} margin="40px 50px" width="400px" display="inline"/>
-
-        </Slide>
-
-        <Slide
-          transition={["fade"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage={still}
-          bgDarken="0.5"
         >
           <Heading size={1} style={{marginTop: "20px"}} fit textColor="primary">
             Beyond Dataset and Code Location : Some Questions that Afflict Our Lives Daily
@@ -209,39 +193,6 @@ export default class Presentation extends React.Component {
             <ListItem fit="true" textColor="primary">I'm getting an error about stdlib.h missing. What is Clang/GCC?</ListItem>
             <ListItem fit="true" textColor="primary">What do you mean by I have to set an environment variable?</ListItem>
           </List>
-
-        </Slide>
-
-
-        <Slide
-          transition={["fade"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage={still}
-          bgDarken="0.7"
-        >
-
-          <Heading size={1} style={{marginTop: "20px"}} fit textColor="primary">
-            eLife Proposes Steps Towards a Solution
-          </Heading>
-
-          <Image src={longtime} width="100%" padding="50px 30px 50px 50px" />
-
-        </Slide>
-
-        <Slide
-          transition={["fade"]}
-          bgColor="secondary"
-          textColor="primary"
-          bgImage={still}
-          bgDarken="0.7"
-        >
-
-          <Heading size={1} style={{marginTop: "20px"}} fit textColor="primary">
-            eLife Proposes Steps Towards a Solution
-          </Heading>
-
-          <Image src={longtime2} width="1100px" padding="50px 30px 50px 50px" />
 
         </Slide>
 
@@ -261,8 +212,6 @@ export default class Presentation extends React.Component {
 
         </Slide>
 
-
-
         <Slide
           transition={["fade"]}
           bgColor="secondary"
@@ -277,8 +226,6 @@ export default class Presentation extends React.Component {
           <Image src={benchmarks} width="800px" padding="50px 30px 50px 50px" />
 
         </Slide>
-
-
 
         <Slide
           transition={["spin"]}

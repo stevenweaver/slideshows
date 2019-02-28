@@ -34,6 +34,13 @@ With code written in Phylotree, you will be able to
 * Create notebooks, in conjunction with Observable, that include documentation, original data, and code used to generate results that can be modified immediately.
 * All of this with no backend server necessary, environment configuration, or concerning yourself with depedency requirements. 
 
+Here, I present of how to compute root to tip distances vs collection date to
+verify whether a tree is fit for molecular clock dating using bayesian
+inference.
+
+The page can be updated immediately simply on change of the newick file in the
+specified format.
+
 Code written in JavaScript can be packaged and submitted as an application
 along with manuscript, ensuring availability for posterity. Something full
 stack hosted applications cannot promise. 
